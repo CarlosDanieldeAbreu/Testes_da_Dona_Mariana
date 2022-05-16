@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jZGZrPWLGMc9JLr69utahKGY7WxsXmiCkLBkIN9+6GDrizdB9aha//A6sO30v7LL7pH5RqBzxL2B44/Gh1QN9A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.WinApp\\Testes.WinApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos Daniel\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
+    "C:\\Users\\Carlos Daniel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

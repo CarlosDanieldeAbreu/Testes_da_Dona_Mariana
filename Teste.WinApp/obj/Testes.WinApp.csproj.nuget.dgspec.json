@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.WinApp\\Testes.WinApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.Dominio\\Testes.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.Dominio\\Testes.Dominio.csproj",
+        "projectName": "Testes.Dominio",
+        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.Dominio\\Testes.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.Infra.Arquivos\\Testes.Infra.Arquivos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.Infra.Arquivos\\Testes.Infra.Arquivos.csproj",
+        "projectName": "Testes.Infra.Arquivos",
+        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.Infra.Arquivos\\Testes.Infra.Arquivos.csproj",
+        "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.Infra.Arquivos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.Dominio\\Testes.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.Dominio\\Testes.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.WinApp\\Testes.WinApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.WinApp\\Testes.WinApp.csproj",
+        "projectName": "Testes.WinApp",
+        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.WinApp\\Testes.WinApp.csproj",
+        "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.WinApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.Infra.Arquivos\\Testes.Infra.Arquivos.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.Infra.Arquivos\\Testes.Infra.Arquivos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
