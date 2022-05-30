@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arquivos", "Arquivos", "{01
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testes.Infra.Arquivos", "Teste.Infra.Arquivos\Testes.Infra.Arquivos.csproj", "{BB1D6E4B-AEAF-416F-BC91-A6B2B9E18BD4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Banco de dados", "Banco de dados", "{46EFD478-0B46-4136-8565-4A79E9F12671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testes.Infra.BancoDados", "RepositorioMateriaEmBancoDados\Testes.Infra.BancoDados.csproj", "{5B1939A5-A910-4512-B44E-8079C38299B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{BB1D6E4B-AEAF-416F-BC91-A6B2B9E18BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB1D6E4B-AEAF-416F-BC91-A6B2B9E18BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB1D6E4B-AEAF-416F-BC91-A6B2B9E18BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1939A5-A910-4512-B44E-8079C38299B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1939A5-A910-4512-B44E-8079C38299B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1939A5-A910-4512-B44E-8079C38299B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1939A5-A910-4512-B44E-8079C38299B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,8 @@ Global
 		{DD47C2CA-19B3-4B86-9861-5C9BE0E0C5A4} = {F7149869-3639-4DC1-8D4B-F8D54CF03B78}
 		{01ADABC1-FD6C-4DCD-9A75-8A09108C18D7} = {92305A60-BA37-4721-B0C4-143890004E40}
 		{BB1D6E4B-AEAF-416F-BC91-A6B2B9E18BD4} = {01ADABC1-FD6C-4DCD-9A75-8A09108C18D7}
+		{46EFD478-0B46-4136-8565-4A79E9F12671} = {92305A60-BA37-4721-B0C4-143890004E40}
+		{5B1939A5-A910-4512-B44E-8079C38299B0} = {46EFD478-0B46-4136-8565-4A79E9F12671}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E3D4109-E4C5-452D-A38F-8B3858A5FECD}

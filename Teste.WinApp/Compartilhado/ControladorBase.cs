@@ -19,5 +19,7 @@ namespace Testes.WinApp.Compartilhado
         public abstract UserControl ObtemListagem();
 
         public abstract ConfiguracaoToolboxBase ObtemConfiguracaoToolbox();
+        public virtual void Duplicar() { }
+        public virtual void GerarPDF() { }
     }
 }

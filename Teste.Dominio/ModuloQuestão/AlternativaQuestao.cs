@@ -10,12 +10,11 @@ namespace Testes.Dominio.ModuloQuestão
     [Serializable]
     public class AlternativaQuestao : EntidadeBase<AlternativaQuestao>
     {
-
         public string Alternativa { get; set; }
+        public Questao Questao { get; set; }
 
         public override void Atualizar(AlternativaQuestao registro)
         {
-
         }
 
         public override string ToString()

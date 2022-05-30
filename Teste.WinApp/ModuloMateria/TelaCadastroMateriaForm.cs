@@ -11,18 +11,7 @@ namespace Testes.WinApp.ModuloMateria
         public TelaCadastroMateriaForm()
         {
             InitializeComponent();
-
             CarregarDisciplinas();
-        }
-
-        private void CarregarDisciplinas()
-        {
-            var disciplinas = Enum.GetValues(typeof(DisciplinaEnum));
-
-            foreach (var item in disciplinas)
-            {
-                comboBoxDisciplina.Items.Add(item);
-            }
         }
 
         private Materia materia;
@@ -43,6 +32,15 @@ namespace Testes.WinApp.ModuloMateria
                 txtNome.Text = materia.Nome;
                 comboBoxDisciplina.SelectedItem = materia.Disciplina;
                 comboBoxSerie.SelectedItem = materia.Serie;
+            }
+        }
+        private void CarregarDisciplinas()
+        {
+            var disciplinas = Enum.GetValues(typeof(DisciplinaEnum));
+
+            foreach (var item in disciplinas)
+            {
+                comboBoxDisciplina.Items.Add(item);
             }
         }
 

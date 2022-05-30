@@ -13,6 +13,12 @@
     <Compile Update="ModuloQuestão\TelaCadastroQuestaoForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ModuloTeste\TabelaTesteControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ModuloTeste\TelaCadastroTesteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="TelaPrincipalForm.cs">
       <SubType>Form</SubType>
     </Compile>

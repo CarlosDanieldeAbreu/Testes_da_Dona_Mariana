@@ -46,14 +46,6 @@ namespace Testes.WinApp.ModuloQuestão
 
             }
         }
-
-        public void CarregarLixBoxAlternativas()
-        {
-            foreach (AlternativaQuestao alternativa in questao.Alternativas)
-            {
-                listItensRespostas.Items.Add(alternativa);
-            }
-        }
         private void CarregarDisciplinas()
         {
             comboBoxDisciplina.Items.Clear();
@@ -62,6 +54,14 @@ namespace Testes.WinApp.ModuloQuestão
             foreach (var item in disciplinas)
             {
                 comboBoxDisciplina.Items.Add(item);
+            }
+        }
+
+        public void CarregarLixBoxAlternativas()
+        {
+            foreach (AlternativaQuestao alternativa in questao.Alternativas)
+            {
+                listItensRespostas.Items.Add(alternativa);
             }
         }
 

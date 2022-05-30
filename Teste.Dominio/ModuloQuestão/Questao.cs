@@ -10,25 +10,23 @@ namespace Testes.Dominio.ModuloQuestão
 {
     public class Questao : EntidadeBase<Questao>
     {
-        public Questao()
-        {
-            Alternativas = new List<AlternativaQuestao>();
-        }
+        private List<AlternativaQuestao> alternativas = new List<AlternativaQuestao>();
 
-        public Questao(Materia materia, DisciplinaEnum disciplina, string pergunta, List<AlternativaQuestao> alternativa, string resposta)
+        public Questao(Materia materia, DisciplinaEnum disciplina, string pergunta, string resposta)
         {
             Materia = materia;
             Disciplina = disciplina;
             Pergunta = pergunta;
-            Alternativas = alternativa;
             Resposta = resposta;
         }
+
+        public Questao() { }
 
         public Materia Materia { get; set; }
         public DisciplinaEnum Disciplina { get; set; }
         public string Pergunta { get; set; }
         public string Resposta { get; set; }
-        public List<AlternativaQuestao> Alternativas { get; set; }
+        public List<AlternativaQuestao> Alternativas { get { return alternativas; } }
 
         public override void Atualizar(Questao registro)
         {

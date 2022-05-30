@@ -1,10 +1,33 @@
 {
   "version": 2,
-  "dgSpecHash": "KCkTC6QOP6yyCPc24HbIDkZdbmnXDNZG9SxnIOQ13L5cI1Tvod1zwBjQYDHqRuxKZI5fAVHW1AUfhsti6DL3nA==",
+  "dgSpecHash": "X2RfGDJk8BHBfz6oCVaSlrmo0jcHsZTW0U6gWSbE89r8T7t1//rhkDTWpbJLxJrRynr8O87/+LB2P1cZHfNUmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Carlos Daniel\\source\\repos\\Testes_da_Dona_Mariana\\Teste.Dominio\\Testes.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Carlos Daniel\\source\\repos\\Corrigir\\Teste.Dominio\\Testes.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Carlos Daniel\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512"
+    "C:\\Users\\Carlos Daniel\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
+    "C:\\Users\\Carlos Daniel\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
+    "C:\\Users\\Carlos Daniel\\.nuget\\packages\\itextsharp\\5.5.13.3\\itextsharp.5.5.13.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BouncyCastle 1.8.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'iTextSharp 5.5.13.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

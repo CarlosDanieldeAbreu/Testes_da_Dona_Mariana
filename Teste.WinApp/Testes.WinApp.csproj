@@ -8,10 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ModuloTeste\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\RepositorioMateriaEmBancoDados\Testes.Infra.BancoDados.csproj" />
     <ProjectReference Include="..\Teste.Infra.Arquivos\Testes.Infra.Arquivos.csproj" />
   </ItemGroup>
 

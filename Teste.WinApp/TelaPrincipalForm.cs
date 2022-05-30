@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using Testes.WinApp.Compartilhado;
 using Testes.WinApp.ModuloMateria;
 using Testes.Infra.Arquivos;
-using Testes.Infra.Arquivos.ModuloMateria;
+using Testes.Infra.BancoDados.ModuloMateria;
+using Testes.Infra.BancoDados.ModuloQuestao;
+using Testes.Infra.Arquivos.ModuloTeste;
 using Testes.WinApp.ModuloQuestão;
+using Testes.WinApp.ModuloTeste;
 using Testes.Infra.Arquivos.ModuloQuestão;
 using System.ComponentModel;
 using System.Data;
@@ -121,13 +124,15 @@ namespace Testes.WinApp
 
         private void InicializarControladores()
         {
-            var repositorioMateria = new RepositorioMateriaEmArquivos(contextoDados);
-            var repositorioQuestao = new RepositorioQuestaoEmArquivos(contextoDados);
+            var repositorioMateria = new RepositorioMateriaEmBancoDados();
+            var repositorioQuestao = new RepositorioQuestaoEmBancoDados();
+            var repositorioTeste = new RepositorioTesteEmArquivo(contextoDados);
 
             controladores = new Dictionary<string, ControladorBase>();
 
             controladores.Add("Matéria", new ControladorMateria(repositorioMateria));
             controladores.Add("Questão", new ControladorQuestao(repositorioQuestao, repositorioMateria));
+            controladores.Add("Teste", new ControladorTeste(repositorioTeste, repositorioMateria, repositorioQuestao));
         }
 
         private void btnInserir_Click(object sender, EventArgs e)

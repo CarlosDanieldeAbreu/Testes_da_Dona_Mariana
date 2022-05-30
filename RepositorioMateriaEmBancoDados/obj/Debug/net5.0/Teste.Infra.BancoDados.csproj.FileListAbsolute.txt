@@ -1,0 +1,15 @@
+C:\Users\Carlos Daniel\source\repos\Corrigir\RepositorioMateriaEmBancoDados\bin\Debug\net5.0\Teste.Infra.BancoDados.deps.json
+C:\Users\Carlos Daniel\source\repos\Corrigir\RepositorioMateriaEmBancoDados\bin\Debug\net5.0\Teste.Infra.BancoDados.dll
+C:\Users\Carlos Daniel\source\repos\Corrigir\RepositorioMateriaEmBancoDados\bin\Debug\net5.0\Teste.Infra.BancoDados.pdb
+C:\Users\Carlos Daniel\source\repos\Corrigir\RepositorioMateriaEmBancoDados\bin\Debug\net5.0\Testes.Dominio.dll
+C:\Users\Carlos Daniel\source\repos\Corrigir\RepositorioMateriaEmBancoDados\bin\Debug\net5.0\Testes.Dominio.pdb
+C:\Users\Carlos Daniel\source\repos\Corrigir\RepositorioMateriaEmBancoDados\obj\Debug\net5.0\Teste.Infra.BancoDados.csproj.AssemblyReference.cache
+C:\Users\Carlos Daniel\source\repos\Corrigir\RepositorioMateriaEmBancoDados\obj\Debug\net5.0\Teste.Infra.BancoDados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Daniel\source\repos\Corrigir\RepositorioMateriaEmBancoDados\obj\Debug\net5.0\Teste.Infra.BancoDados.AssemblyInfoInputs.cache
+C:\Users\Carlos Daniel\source\repos\Corrigir\RepositorioMateriaEmBancoDados\obj\Debug\net5.0\Teste.Infra.BancoDados.AssemblyInfo.cs
+C:\Users\Carlos Daniel\source\repos\Corrigir\RepositorioMateriaEmBancoDados\obj\Debug\net5.0\Teste.Infra.BancoDados.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Daniel\source\repos\Corrigir\RepositorioMateriaEmBancoDados\obj\Debug\net5.0\Teste.Infra.BancoDados.csproj.CopyComplete
+C:\Users\Carlos Daniel\source\repos\Corrigir\RepositorioMateriaEmBancoDados\obj\Debug\net5.0\Teste.Infra.BancoDados.dll
+C:\Users\Carlos Daniel\source\repos\Corrigir\RepositorioMateriaEmBancoDados\obj\Debug\net5.0\refint\Teste.Infra.BancoDados.dll
+C:\Users\Carlos Daniel\source\repos\Corrigir\RepositorioMateriaEmBancoDados\obj\Debug\net5.0\Teste.Infra.BancoDados.pdb
+C:\Users\Carlos Daniel\source\repos\Corrigir\RepositorioMateriaEmBancoDados\obj\Debug\net5.0\ref\Teste.Infra.BancoDados.dll

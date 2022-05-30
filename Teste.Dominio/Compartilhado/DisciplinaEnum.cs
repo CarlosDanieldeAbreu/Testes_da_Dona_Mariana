@@ -8,6 +8,11 @@ namespace Testes.Dominio.Compartilhado
 {
     public enum DisciplinaEnum
     {
-       Ciência,Matématica,Português,História,Geografia
+        Ciência,
+        Histôria,
+        Português,
+        Matemática,
+        Artes,
+        Gêografia
     }
 }

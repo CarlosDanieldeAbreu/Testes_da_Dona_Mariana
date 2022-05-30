@@ -5,11 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ModuloTeste\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.0.1" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
   </ItemGroup>
 
 </Project>

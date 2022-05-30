@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Testes.Dominio.ModuloMateria;
 using Testes.Dominio.ModuloQuestão;
+using Testes.Dominio.ModuloTeste;
 
 namespace Testes.Infra.Arquivos
 {
@@ -17,7 +18,7 @@ namespace Testes.Infra.Arquivos
 
             Questoes = new List<Questao>();
 
-            //Compromissos = new List<Compromisso>();
+            Testes = new List<Teste>();
         }
 
         public DataContext(ISerializador serializador) : this()
@@ -31,7 +32,7 @@ namespace Testes.Infra.Arquivos
 
         public List<Questao> Questoes { get; set; }
 
-        //public List<Compromisso> Compromissos { get; set; }
+        public List<Teste> Testes { get; set; }
 
 
         public void GravarDados()
@@ -49,8 +50,8 @@ namespace Testes.Infra.Arquivos
             if (ctx.Questoes.Any())
                 this.Questoes.AddRange(ctx.Questoes);
 
-            //if (ctx.Compromissos.Any())
-            //    this.Compromissos.AddRange(ctx.Compromissos);
+            if (ctx.Testes.Any())
+                this.Testes.AddRange(ctx.Testes);
         }
     }
 }
