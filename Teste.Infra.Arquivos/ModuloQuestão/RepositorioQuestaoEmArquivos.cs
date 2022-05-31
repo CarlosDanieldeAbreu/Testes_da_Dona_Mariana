@@ -30,7 +30,7 @@ namespace Testes.Infra.Arquivos.ModuloQuestão
         {
             foreach (var item in itens)
             {
-                questaoSelecionada.AdicionarItem(item);
+                questaoSelecionada.AdicionarAlternativa(item);
             }
         }
     }

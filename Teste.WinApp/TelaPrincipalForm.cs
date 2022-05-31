@@ -16,6 +16,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Testes.Infra.BancoDados.ModuloTeste;
 
 namespace Testes.WinApp
 {
@@ -126,7 +127,7 @@ namespace Testes.WinApp
         {
             var repositorioMateria = new RepositorioMateriaEmBancoDados();
             var repositorioQuestao = new RepositorioQuestaoEmBancoDados();
-            var repositorioTeste = new RepositorioTesteEmArquivo(contextoDados);
+            var repositorioTeste = new RepositorioTesteEmBancoDados();
 
             controladores = new Dictionary<string, ControladorBase>();
 

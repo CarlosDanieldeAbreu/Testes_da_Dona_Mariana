@@ -38,9 +38,9 @@ namespace Testes.WinApp.ModuloTeste
             set
             {
                 teste = value;
-                txtTitulo.Text = teste.titulo;
+                txtTitulo.Text = teste.Titulo;
                 txtQuestoes.Text = teste.Numero.ToString();
-                if(teste.turma == "Primeira Série")
+                if(teste.Turma == "Primeira Série")
                 {
                     btn1.Checked = true;
                 }
@@ -48,25 +48,25 @@ namespace Testes.WinApp.ModuloTeste
                 {
                     btn2.Checked = false;
                 }
-                cbxDisciplina.SelectedItem = teste.disciplinaEnum;
+                cbxDisciplina.SelectedItem = teste.Disciplina;
                 cbxMateria.SelectedItem = teste.materia;
             }
         }
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-            teste.titulo = txtTitulo.Text;
+            teste.Titulo = txtTitulo.Text;
             int n = Convert.ToInt32(txtQuestoes.Text);
-            teste.qntQuestoes = n;
+            teste.QtdQuestoes = n;
             if (btn1.Checked)
             {
-                teste.turma = "Primeira Série";
+                teste.Turma = "Primeira Série";
             }
             else
             {
-                teste.turma = "Segunda Série";
+                teste.Turma = "Segunda Série";
             }
-            teste.disciplinaEnum = (DisciplinaEnum)cbxDisciplina.SelectedItem;
+            teste.Disciplina = (DisciplinaEnum)cbxDisciplina.SelectedItem;
             teste.materia = (Materia)cbxMateria.SelectedItem;
 
             var resultadoValidacao = GravarRegistro(teste);

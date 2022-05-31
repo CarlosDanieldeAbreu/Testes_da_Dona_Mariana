@@ -38,10 +38,14 @@ namespace Testes.Dominio.ModuloQuestão
             return $"Número: {Numero}, Matéria: {Materia.Nome}, Disciplina: {Disciplina}, Pergunta: {Pergunta}";
         }
 
-        public void AdicionarItem(AlternativaQuestao item)
+        public bool AdicionarAlternativa(AlternativaQuestao item)
         {
             if (Alternativas.Exists(x => x.Equals(item)) == false)
+            {
                 Alternativas.Add(item);
+                return true;
+            }
+            return false;   
         }
     }
 }

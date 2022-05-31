@@ -68,7 +68,7 @@ namespace Testes.Dominio.ModuloTeste
             Paragraph titulo = new Paragraph();
             titulo.Font = new Font(Font.FontFamily.COURIER, 32);
             titulo.Alignment = Element.ALIGN_CENTER;
-            titulo.Add(Teste.titulo + "\n\n");
+            titulo.Add(Teste.Titulo + "\n\n");
             doc.Add(titulo);
         }
 
@@ -78,7 +78,7 @@ namespace Testes.Dominio.ModuloTeste
             Identificacao.Font = new Font(Font.FontFamily.COURIER, 18);
             Identificacao.Alignment = Element.ALIGN_LEFT;
             Identificacao.Add("Aluno: \n");
-            Identificacao.Add("Série: " + Teste.turma + "\n\n\n");
+            Identificacao.Add("Série: " + Teste.Turma + "\n\n\n");
             doc.Add(Identificacao);
         }
     }

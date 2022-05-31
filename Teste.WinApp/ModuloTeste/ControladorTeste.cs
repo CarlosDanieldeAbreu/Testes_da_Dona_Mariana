@@ -49,7 +49,7 @@ namespace Testes.WinApp.ModuloTeste
                     return;
                 }
 
-                tela.Teste.questaos = ObterQuestoesRandomicas(questoesFiltradas, tela.Teste.qntQuestoes);
+                tela.Teste.questaos = ObterQuestoesRandomicas(questoesFiltradas, tela.Teste.QtdQuestoes);
 
                 var resultadoValidacao = repositorioTeste.Inserir(tela.Teste);
 
@@ -195,7 +195,7 @@ namespace Testes.WinApp.ModuloTeste
             {
                 List<Questao> questaos = repositorioQuestao.SelecionarTodos();
 
-                List<Questao> questaosPorDisciplina = questaos.FindAll(x => x.Materia.Disciplina == Teste.disciplinaEnum);
+                List<Questao> questaosPorDisciplina = questaos.FindAll(x => x.Materia.Disciplina == Teste.Disciplina);
 
                 return questaosPorDisciplina;
             }

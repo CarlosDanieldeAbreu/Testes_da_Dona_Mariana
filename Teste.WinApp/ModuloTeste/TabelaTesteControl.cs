@@ -33,7 +33,7 @@ namespace Testes.WinApp.ModuloTeste
 
             foreach (Teste t in testes)
             {
-                tabelaTestes.Rows.Add(t.Numero, t.titulo);
+                tabelaTestes.Rows.Add(t.Numero, t.Titulo);
             }
         }
 

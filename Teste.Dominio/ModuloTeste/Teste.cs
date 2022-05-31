@@ -11,10 +11,10 @@ namespace Testes.Dominio.ModuloTeste
 {
     public class Teste : EntidadeBase<Teste>
     {
-        public string titulo { get; set; }
-        public int qntQuestoes { get; set; }
-        public string turma { get; set; }
-        public DisciplinaEnum disciplinaEnum { get; set; }
+        public string Titulo { get; set; }
+        public int QtdQuestoes { get; set; }
+        public string Turma { get; set; }
+        public DisciplinaEnum Disciplina { get; set; }
         public Materia materia { get; set; }
         //public DateTime data { get; set; }
 
@@ -22,7 +22,7 @@ namespace Testes.Dominio.ModuloTeste
 
         public override void Atualizar(Teste registro)
         {
-            this.titulo = registro.titulo;
+            this.Titulo = registro.Titulo;
             //data = DateTime.Now;
         }
     }
